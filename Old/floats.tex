@@ -1,0 +1,29 @@
+\section{Floats}
+This section goes over tables and figures.
+
+\begin{figure}[H] % H forces figure to be here exactly
+	\centering
+	\includegraphics[width=0.7\textwidth]{sea_lions_holding_hands.jpg}
+	\caption{Sea Lions Holding Hands}
+	\label{fig:sealion}
+\end{figure}
+
+Here, sealions are holding hands \ref{fig:sealion}
+
+In the table, we can see that sealions are simply superior
+\begin{table}[H]
+	\centering
+	\begin{tabular}{||c c c c||} 
+		\hline
+		Fish & Seaotturs & Sealion & Magic \\ [0.5ex] 
+		\hline\hline
+		1 & 6 & 87837 & $\omega$ \\ 
+		2 & 7 & 78 & $\Omega$  \\
+		3 & 545 & 778 & $\delta$  \\
+		4 & 545 & 18744 & $\alpha$  \\
+		5 & 88 & 788 & $\beta$  \\ [1ex] 
+		\hline
+	\end{tabular}
+	\caption{Table to test captions and labels. \cite{Lions2001}}
+	\label{table:1}
+\end{table}
